@@ -1,3 +1,6 @@
 # man git-config
 [push]
 	autoSetupRemote = true
+[core]
+	editor = vim
+

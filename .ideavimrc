@@ -1,0 +1,79 @@
+" .ideavimrc is a configuration file for IdeaVim plugin. It uses
+"   the same commands as the original .vimrc configuration.
+" list of commands https://jb.gg/h38q75
+" list of :action https://gist.github.com/zchee/9c78f91cc5ad771c1f5d
+
+Plug 'machakann/vim-highlightedyank'
+
+set scrolloff=10
+set incsearch
+
+let mapleader = " "
+ 
+nnoremap <Space> <Nop>
+xnoremap <Space> <Nop>
+onoremap <Space> <Nop>
+
+nnoremap <leader>f :action GotoDeclaration<CR>
+nnoremap <leader>h :action Back<CR>
+nnoremap <leader>l :action Forward<CR>
+nnoremap <leader>j :action GotoImplementation<CR>
+nnoremap <leader>k :action GotoSuperMethod<CR>
+nnoremap <leader>o :action ShowHoverInfo<CR>
+nnoremap <leader>i :action Generate<CR>
+nnoremap <leader>e :action GotoNextError<CR>
+nnoremap <leader>g :action Refactorings.QuickListPopupAction<CR>
+xnoremap <leader>g :action Refactorings.QuickListPopupAction<CR>
+nnoremap <leader>z :action FindInPath<CR>
+xnoremap <leader>z :action FindInPath<CR>
+nnoremap <leader>q :action SearchEverywhere<CR>
+nnoremap <leader>u :action FindUsages<CR>
+nnoremap <leader>r :action RunAnything<CR>
+nnoremap <leader>R :action RunClass<CR>
+nnoremap <leader>t :action Stop<CR>
+nnoremap <leader>w :action ManageRecentProjects<CR>
+xnoremap <leader>m :action ReformatCode<CR>
+nnoremap <leader>m :action ReformatCode<CR>
+nnoremap <leader>b :action ToggleLineBreakpoint<CR>
+nnoremap <leader>B :action ViewBreakpoints<CR>
+nnoremap <leader>v :action ToggleBookmark<CR>
+nnoremap <leader>0 :action ActivateCommitToolWindow<CR>
+nnoremap <leader>1 :action ActivateProjectToolWindow<CR>
+nnoremap <leader>2 :action ActivateBookmarksToolWindow<CR>
+nnoremap <leader>3 :action ActivateFindToolWindow<CR>
+nnoremap <leader>4 :action ActivateRunToolWindow<CR>
+nnoremap <leader>5 :action ActivateDebugToolWindow<CR>
+nnoremap <leader>6 :action ActivateProblemsToolWindow<CR>
+nnoremap <leader>7 :action ActivateStructureToolWindow<CR>
+nnoremap <leader>8 :action ActivateServicesToolWindow<CR>
+nnoremap <leader>9 :action ActivateVersionControlToolWindow<CR>
+nnoremap <leader>, :action EditorToggleUseSoftWraps<CR>
+xnoremap <leader>/ :action CommentByLineComment<CR>
+nnoremap <leader>/ :action CommentByLineComment<CR>
+nnoremap <leader>a :action RecentFiles<CR>
+nnoremap <leader>s :action ActivateStructureToolWindow<CR>
+
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+
+nnoremap % %zz
+nnoremap * *zz
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap dd "_dd
+xnoremap d "_d
+
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y "+Y
+vnoremap <leader>Y "+Y
+nnoremap <leader>p "+p
+vnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>P "+P
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+1<CR>gv=gv
+

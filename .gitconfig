@@ -1,4 +1,3 @@
-# man git-config
 [push]
 	autoSetupRemote = true
 [core]

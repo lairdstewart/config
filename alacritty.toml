@@ -1,0 +1,6 @@
+[keyboard]
+bindings = [
+    { key = "F11", action = "ToggleFullscreen" }
+]
+[font]
+size = 18.0

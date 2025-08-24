@@ -1,0 +1,3 @@
+browser: chrome. Available on Linux/Windows/macOS. Renders equations in Microsoft Word online. Tab/recently used page fuzzy finder built in. con: privacy.
+terminal emulator: alacritty. fast, don't need much config, tabs, or features. tmux is enough.
+editor: cursor, unclear if nvim is enough and how valuable ai features are or if gemini in termal etc. is enough.

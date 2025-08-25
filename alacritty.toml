@@ -1,6 +1,15 @@
+[general]
+import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\rose-pine-dawn.toml"]
+# import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\rose-pine.toml"]
+
 [keyboard]
 bindings = [
     { key = "F11", action = "ToggleFullscreen" }
 ]
+
+[terminal.shell]
+program = "C:\\cygwin64\\Cygwin.bat"
+args = ["--login", "-i"]
+
 [font]
-size = 18.0
+size = 18

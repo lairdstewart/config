@@ -2,6 +2,7 @@
 	autoSetupRemote = true
 [core]
 	editor = vim
+	autocrlf = true
 [user]
 	name = laird
 	email = XXX

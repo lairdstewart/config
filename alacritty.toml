@@ -1,5 +1,9 @@
 [general]
-import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-light.toml"]
+# https://github.com/alacritty/alacritty-theme/blob/master/themes/ayu_light.toml
+import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-light.toml"] # light
+# https://github.com/alacritty/alacritty-theme/blob/master/themes/ayu_dark.toml
+# import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-dark.toml"] # dark
+
 
 [keyboard]
 bindings = [

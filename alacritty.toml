@@ -1,6 +1,5 @@
 [general]
-import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\rose-pine-dawn.toml"]
-# import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\rose-pine.toml"]
+import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-light.toml"]
 
 [keyboard]
 bindings = [

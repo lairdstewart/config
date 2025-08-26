@@ -1,2 +1,2 @@
-syntax on " full color (mac)
 set relativenumber
+" syntax on " full color (mac)

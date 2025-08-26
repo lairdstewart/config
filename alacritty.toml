@@ -10,9 +10,9 @@ bindings = [
     { key = "F11", action = "ToggleFullscreen" }
 ]
 
-[terminal.shell]
-program = "C:\\cygwin64\\Cygwin.bat"
-args = ["--login", "-i"]
+# [terminal.shell] # windows (cygwin)
+# program = "C:\\cygwin64\\Cygwin.bat" # windows (cygwin)
+# args = ["--login", "-i"] # windows (cygwin)
 
 [font]
 size = 18

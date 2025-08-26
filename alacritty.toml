@@ -1,19 +1,23 @@
+# ~/.config/alacritty/alacrity.toml # (linux)
 # /cygdrive/c/Users/stewarth/AppData/Roaming/alacritty/alacritty.toml # (windows-cygwin)
 
 [general]
 # https://github.com/alacritty/alacritty-theme/blob/master/themes/ayu_light.toml
-import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-light.toml"] # light
+# import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-light.toml"] # (windows)
+import = ["~/.config/alacritty/themes/ayu-light.toml"] # (linux)
 # https://github.com/alacritty/alacritty-theme/blob/master/themes/ayu_dark.toml
-# import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-dark.toml"] # dark
+# import = ["C:\\Users\\stewarth\\AppData\\Roaming\\alacritty\\themes\\ayu-dark.toml"] # (windows)
+# import = ["~/.config/alacritty/themes/ayu-dark.toml"] # (linux)
 
 [keyboard]
 bindings = [
     { key = "F11", action = "ToggleFullscreen" }
 ]
 
-[terminal.shell] # (windows-cygwin)
-program = "C:\\cygwin64\\Cygwin.bat" # (windows-cygwin)
-args = ["--login", "-i"] # (windows-cygwin)
+# [terminal.shell] # (windows-cygwin)
+# program = "C:\\cygwin64\\Cygwin.bat" # (windows-cygwin)
+# args = ["--login", "-i"] # (windows-cygwin)
 
 [font]
 size = 18
+# size = 22 # (macos)

@@ -1,0 +1,110 @@
+{
+	"tag": {
+		"prefix": "\\tg",
+		"body": "\\tag{$1}$0",
+	},
+	"frac": {
+		"prefix": "\\fc",
+		"body": "\\frac{$1}{$2}$0",
+	},
+	"partial": {
+		"prefix": "\\pl",
+		"body": "\\frac{\\partial$1}{\\partial$2}$0",
+	},
+	"vector": {
+		"prefix": "\\bx",
+		"body": "\\begin{bmatrix}$1\\end{bmatrix}$0",
+	},
+	"sqrt": {
+		"prefix": "\\st",
+		"body": "\\sqrt{$1}$0",
+	},
+	"left": {
+		"prefix": "\\lt",
+		"body": "\\left($1\\right)$0",
+	},
+	"normal text": {
+		"prefix": "\\rm",
+		"body": "\\textrm{$1}$0",
+	},
+	"bold": {
+		"prefix": "\\bf",
+		"body": "\\textbf{$1}$0",
+	},
+	"mathbold": {
+		"prefix": "\\mf",
+		"body": "\\mathbf{$1}$0",
+	},
+	"times": {
+		"prefix": "\\ts",
+		"body": "\\times",
+	},
+	"nabla": {
+		"prefix": "\\na",
+		"body": "\\nabla",
+	},
+	"alpha": {
+		"prefix": "\\aa",
+		"body": "\\alpha",
+	},
+	"beta": {
+		"prefix": "\\ba",
+		"body": "\\beta",
+	},
+	"gamma": {
+		"prefix": "\\ga",
+		"body": "\\gamma",
+	},
+	"delta": {
+		"prefix": "\\da",
+		"body": "\\delta",
+	},
+	"epsilon": {
+		"prefix": "\\en",
+		"body": "\\epsilon",
+	},
+	"varepsilon": {
+		"prefix": "\\vn",
+		"body": "\\varepsilon",
+	},
+	"zeta": {
+		"prefix": "\\za",
+		"body": "\\zeta",
+	},
+	"eta": {
+		"prefix": "\\ea",
+		"body": "\\eta",
+	},
+	"theta": {
+		"prefix": "\\ta",
+		"body": "\\theta",
+	},
+	"iota": {
+		"prefix": "\\ia",
+		"body": "\\iota",
+	},
+	"kappa": {
+		"prefix": "\\ka",
+		"body": "\\kappa",
+	},
+	"lambda": {
+		"prefix": "\\la",
+		"body": "\\lambda",
+	},
+	"omicron": {
+		"prefix": "\\on",
+		"body": "\\omicron",
+	},
+	"sigma": {
+		"prefix": "\\sa",
+		"body": "\\sigma",
+	},
+	"upsilon": {
+		"prefix": "\\un",
+		"body": "\\upsilon",
+	},
+	"omega": {
+		"prefix": "\\oa",
+		"body": "\\omega",
+	},
+}
